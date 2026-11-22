@@ -1,0 +1,25 @@
+{
+  "baseline": "GitHub hub-spoke v3",
+  "note": "Only copied package migrated. Original GitHub source preserved. New/removed docs are handover cleanup, not resource deletions.",
+  "changed": [
+    "PACKAGE-MANIFEST.json",
+    "README.md",
+    "START-HERE.md",
+    "Start-CustomerBootstrap.ps1",
+    "config/inputs.yaml",
+    "docs/CHANGE-SUMMARY.md",
+    "docs/VALIDATION.md",
+    "sources/bootstrap/alz/azuredevops/pipelines/terraform/templates/helpers/terraform-apply.yaml",
+    "sources/bootstrap/alz/azuredevops/pipelines/terraform/templates/helpers/terraform-plan.yaml",
+    "tests/Test-Launcher.ps1"
+  ],
+  "added": [
+    "docs/CUSTOMER-GUIDE-HUB-SPOKE-AZUREDEVOPS.docx",
+    "docs/CUSTOMER-INSTRUCTIONS.md"
+  ],
+  "removed": [
+    "docs/CUSTOMER-CHECKLIST.md",
+    "docs/CUSTOMER-GUIDE-HUB-SPOKE-NVA-READY.docx"
+  ],
+  "platform_tfvars_library_network_overlays": "byte-for-byte preserved"
+}
